@@ -10,10 +10,10 @@ Happy packeting!
 ### Note 1
    
 `<list of timestamps (us)>` can either be:  
--in the format `[x,y,z]` or
+-in the format `[x,y,z]`  
 eg `python custom_512.py [0,2,4] 1024 cccccccccccc meow.pcap`  
--a filename containing a list `[x,y,z]`
-`python custom_512.py tsfile.txt 1024 cccccccccccc meow.pcap`
+-or a filename containing a list `[x,y,z]`  
+eg `python custom_512.py tsfile.txt 1024 cccccccccccc meow.pcap`
 
 ### Note 2
 no punctuation in the src mac. Default dest mac is `ffffffffffff`, but can be easily changed in the script.
