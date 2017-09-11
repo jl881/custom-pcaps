@@ -35,7 +35,7 @@ def main(argv):
   ofname = ''
 
   if (len(argv) <5):
-    print('custom_512.py <list of timestamps (us)> <packet length> <src mac> <outputfile>')
+    print('custom-pcaps.py <list of timestamps (us)> <packet length> <src mac> <outputfile>')
     sys.exit()
   if (type(literal_eval(argv[1])) == list):
     usecs = literal_eval(argv[1])
