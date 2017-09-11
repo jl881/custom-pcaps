@@ -11,12 +11,6 @@ def writeByteStringToFile(bytestring, filename):
     bitout = open(filename, 'wb')
     bitout.write(bytes)
 
-def writeByteStringToFile(bytestring, filename):
-    bytelist = bytestring.split()  
-    bytes = binascii.a2b_hex(''.join(bytelist))
-    bitout = open(filename, 'wb')
-    bitout.write(bytes)
-
 def ip_checksum(iph):
     words = splitN(''.join(iph.split()),4)
     csum = 0;
